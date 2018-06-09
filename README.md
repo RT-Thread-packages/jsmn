@@ -34,6 +34,7 @@ RT-Thread online packages
 
 ## 3、使用 jsmn
 jsmn软件包例子代码，该代码位于：[/examples/example_jsmn.c](examples/example_jsmn.c)
+
 jsmn软件包测试代码，该代码位于：[/test/tests.c](test/tests.c)
 
 
@@ -49,7 +50,7 @@ jsmn软件包测试代码，该代码位于：[/test/tests.c](test/tests.c)
 | len  | json格式字符串长度 |
 | tokens  | 存放token的地址 |
 | num_tokens  | token的数量 |
-| return | ---- |
+| 返回 | ---- |
 | -1  | 没能提供足够的存储空间 |
 | -2  | json字符串包含非法字符 |
 | -3  | 该字符串不是一个完整的json数据包 |
@@ -58,10 +59,12 @@ jsmn软件包测试代码，该代码位于：[/test/tests.c](test/tests.c)
 
 ### 3.2 jsmn初始化
 `void jsmn_init(jsmn_parser *parser);`
+
 | 参数 | 描述 |
 | ---- | ---- |
 | parser  | json对象 |
 | return  | 无 |
+
 
 ### 3.3 例子测试
 在msh/>输入 `jsmn_exam` 
